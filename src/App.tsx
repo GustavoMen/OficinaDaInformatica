@@ -1,11 +1,17 @@
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+import Navbar from "./Components/NavBar/Navbar";
+import GlobalStyle from "./globalStyles";
+import Home from "./Pages/HomePage/Home";
+
+export default function App() {
   return (
-    <div>
-      <h1>React Typescript with eslint, by Vite</h1>
-    </div>
+    <Router>
+      <Navbar />
+      <GlobalStyle />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
