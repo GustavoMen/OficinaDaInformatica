@@ -8,6 +8,11 @@ import {
   Btn,
   ImgContainer,
   ImgOne,
+  SectionTwo,
+  SectionTwoTitle,
+  GridContainer,
+  GridItem,
+  GridImage,
 } from "./Home.elements";
 
 // IMAGES
@@ -27,6 +32,14 @@ export default function Home() {
           <ImgOne src={imageOne} />
         </ImgContainer>
       </Sectionone>
+      <SectionTwo>
+        <SectionTwoTitle>Quais problemas resolvemos para você?</SectionTwoTitle>
+        <GridContainer>
+          <GridItem>
+            <GridImage />
+          </GridItem>
+        </GridContainer>
+      </SectionTwo>
     </Container>
   );
 }
