@@ -1,4 +1,10 @@
+// IMAGES
+import { useState } from "react";
+
+import backgroundGrid from "../../assets/Images/home/BackgroundGrid.png";
 import imageOne from "../../assets/Images/home/image1.png";
+import SistemasIconTwo from "../../assets/Images/home/sistemaActiveted.png";
+import SistemasIconOne from "../../assets/Images/home/sistemaDesativeted.png";
 import { Container } from "../../globalStyles";
 import {
   MainText,
@@ -12,12 +18,17 @@ import {
   SectionTwoTitle,
   GridContainer,
   GridItem,
-  GridImage,
+  GridImageIcon,
+  GridTitle,
+  GridText,
 } from "./Home.elements";
 
-// IMAGES
-
 export default function Home() {
+  const [Icon, setIcon] = useState(0);
+
+  const toggleIcon = (index: number) => {
+    setIcon(index);
+  };
   return (
     <Container>
       <Sectionone>
@@ -35,8 +46,20 @@ export default function Home() {
       <SectionTwo>
         <SectionTwoTitle>Quais problemas resolvemos para você?</SectionTwoTitle>
         <GridContainer>
+          <GridItem
+            onMouseOver={() => toggleIcon(1)}
+            onMouseOut={() => toggleIcon(0)}
+          >
+            <GridImageIcon
+              src={Icon === 1 ? SistemasIconTwo : SistemasIconOne}
+            />
+            <GridTitle>Sistemas</GridTitle>
+            <GridText>Soluções eficazes para impulsionar seus ganhos.</GridText>
+          </GridItem>
           <GridItem>
-            <GridImage />
+            <GridImageIcon />
+            <GridTitle>Sistemas</GridTitle>
+            <GridText>Soluções eficazes para impulsionar seus ganhos.</GridText>
           </GridItem>
         </GridContainer>
       </SectionTwo>

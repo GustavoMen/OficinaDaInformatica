@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import backgroundGrid from "../../assets/Images/home/BackgroundGrid.png";
+
 /// Section One /////////////////////////////////////////
 
 export const Sectionone = styled.section`
@@ -94,16 +96,46 @@ export const SectionTwo = styled.section`
 
 export const SectionTwoTitle = styled.h2`
   margin-top: 100px;
-  font-size: 50px;
+  font-size: 44px;
   text-align: center;
 `;
 
 export const GridContainer = styled.div`
-  margin: auto;
+  padding-top: 40px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(610, 1fr));
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
 `;
 
-export const GridItem = styled.div``;
+export const GridItem = styled.div`
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  transition: all 1s ease;
+  border-radius: 10px;
 
-export const GridImage = styled.img``;
+  &:hover {
+    background: url(${backgroundGrid});
+  }
+`;
+
+export const GridImageIcon = styled.img`
+  padding-top: 30px;
+  margin-left: 140px;
+  text-align: center;
+  width: 120px;
+`;
+
+export const GridTitle = styled.h2`
+  font-size: 48px;
+  padding-top: 32px;
+  text-align: center;
+`;
+
+export const GridText = styled.p`
+  font-size: 24px;
+  padding-top: 32px;
+  text-align: center;
+  color: #696969;
+  font-weight: bold;
+`;
