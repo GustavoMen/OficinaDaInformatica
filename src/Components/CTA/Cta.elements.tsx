@@ -2,21 +2,6 @@ import styled from "styled-components";
 
 import backgroundImage from "../../assets/Images/LocationPageImageTwo.png";
 
-export const ImageDiv = styled.div`
-  width: 100%;
-  height: 200px;
-  background: url(${backgroundImage});
-  text-align: center;
-`;
-
-export const Text = styled.h3`
-  width: 500px;
-  padding-top: 15px;
-  margin: auto;
-  color: #fff;
-  font-size: 38px;
-`;
-
 export const Btn = styled.button`
   border: 4px solid #fff;
   margin-top: 10px;
@@ -33,4 +18,26 @@ export const Btn = styled.button`
   &:hover {
     transform: scale(1.1);
   }
+`;
+
+export const ImageDiv = styled.div`
+  width: 100%;
+  height: 200px;
+  background: url(${backgroundImage});
+  text-align: center;
+
+  @media screen and (max-width: 776px) {
+    height: 300px;
+    ${Btn} {
+      margin-top: 30px;
+    }
+  }
+`;
+
+export const Text = styled.h3`
+  width: 400px;
+  padding-top: 30px;
+  margin: auto;
+  color: #fff;
+  font-size: 32px;
 `;

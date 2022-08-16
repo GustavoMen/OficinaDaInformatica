@@ -10,7 +10,6 @@ import SistemasIconTwo from "../../assets/Images/home/sistemaActiveted.png";
 import SistemasIconOne from "../../assets/Images/home/sistemaDesativeted.png";
 import VendasIconTwo from "../../assets/Images/home/VendasIconActiveted.png";
 import VendasIconOne from "../../assets/Images/home/VendasIconDesativeted.png";
-import Cta from "../../Components/CTA/cta";
 import {
   MainText,
   Sectionone,
@@ -128,7 +127,6 @@ export default function Home() {
           </GridItem>
         </GridContainer>
       </SectionTwo>
-      <Cta />
     </>
   );
 }

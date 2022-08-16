@@ -26,12 +26,20 @@ export const ContainerText = styled.div`
     flex-direction: column;
     text-align: center;
   }
+
+  @media screen and (max-width: 524px) {
+    padding-left: 0;
+  }
 `;
 export const MainText = styled.h1`
   font-size: 50px;
 
   @media screen and (max-width: 768px) {
     text-align: center;
+  }
+
+  @media screen and (max-width: 392px) {
+    font-size: 42px;
   }
 `;
 
@@ -99,6 +107,10 @@ export const SectionTwoTitle = styled.h2`
   margin-top: 100px;
   font-size: 44px;
   text-align: center;
+
+  @media screen and (max-width: 392px) {
+    font-size: 42px;
+  }
 `;
 
 export const GridContainer = styled.div`
@@ -187,6 +199,10 @@ export const GridItem = styled.div`
       color: #b72d2f;
       display: inline-block;
     }
+  }
+
+  @media screen and (max-width: 996px) {
+    width: 80%;
   }
 `;
 
