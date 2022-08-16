@@ -32,7 +32,7 @@ export const ContainerText = styled.div`
   }
 `;
 export const MainText = styled.h1`
-  font-size: 50px;
+  font-size: 48px;
 
   @media screen and (max-width: 768px) {
     text-align: center;

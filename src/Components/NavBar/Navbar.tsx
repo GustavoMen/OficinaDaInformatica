@@ -47,11 +47,11 @@ function Navbar() {
         </MobileIcon>
         <NavMenu onClick={handleClick} click={click}>
           <NavItem>
-            <NavLinks to="/">Produtos</NavLinks>
+            <NavLinks to="/products">Produtos</NavLinks>
           </NavItem>
 
           <NavItem>
-            <NavLinks to="/about">Locação</NavLinks>
+            <NavLinks to="/location">Locação</NavLinks>
           </NavItem>
 
           <NavItem>
@@ -59,7 +59,7 @@ function Navbar() {
           </NavItem>
 
           <NavItem>
-            <NavLinks to="/projects">Sistemas</NavLinks>
+            <NavLinks to="/systems">Sistemas</NavLinks>
           </NavItem>
 
           <NavItem>
