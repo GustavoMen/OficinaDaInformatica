@@ -21,6 +21,9 @@ import {
   GridImageIcon,
   GridTitle,
   GridText,
+  GridList,
+  GridListText,
+  GridBtn,
 } from "./Home.elements";
 
 export default function Home() {
@@ -55,6 +58,12 @@ export default function Home() {
             />
             <GridTitle>Sistemas</GridTitle>
             <GridText>Soluções eficazes para impulsionar seus ganhos.</GridText>
+            <GridList>
+              <GridListText>Soluções Comercias</GridListText>
+              <GridListText>Soluções Gerenciais</GridListText>
+              <GridListText>Soluções Fiscais</GridListText>
+            </GridList>
+            <GridBtn>Saiba Mais</GridBtn>
           </GridItem>
           <GridItem>
             <GridImageIcon />

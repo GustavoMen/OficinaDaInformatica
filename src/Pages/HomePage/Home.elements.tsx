@@ -105,37 +105,80 @@ export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
-`;
-
-export const GridItem = styled.div`
-  margin: auto;
-  width: 400px;
-  height: 400px;
-  transition: all 1s ease;
-  border-radius: 10px;
-
-  &:hover {
-    background: url(${backgroundGrid});
-  }
-`;
-
-export const GridImageIcon = styled.img`
-  padding-top: 30px;
-  margin-left: 140px;
-  text-align: center;
-  width: 120px;
+  align-content: center;
 `;
 
 export const GridTitle = styled.h2`
-  font-size: 48px;
-  padding-top: 32px;
+  font-size: 44px;
+  padding-top: 20px;
   text-align: center;
 `;
 
 export const GridText = styled.p`
   font-size: 24px;
-  padding-top: 32px;
+  padding-top: 20px;
   text-align: center;
   color: #696969;
   font-weight: bold;
+`;
+
+export const GridList = styled.ul`
+  color: #696969;
+  list-style: none;
+  padding-top: 20px;
+`;
+
+export const GridListText = styled.li`
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  align-self: center;
+`;
+
+export const GridBtn = styled.button`
+  border: none;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  background-color: #b72d2f;
+  height: 45px;
+  width: 75%;
+`;
+
+export const GridItem = styled.div`
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  transition: all 1s ease;
+  border-radius: 10px;
+
+  &:hover {
+    background: url(${backgroundGrid});
+    background-size: cover;
+
+    ${GridTitle} {
+      color: #fff;
+    }
+    ${GridText} {
+      color: #fff;
+    }
+
+    ${GridList} {
+      color: #fff;
+    }
+
+    ${GridBtn} {
+      background-color: #fff;
+      color: #b72d2f;
+    }
+  }
+`;
+
+export const GridImageIcon = styled.img`
+  padding-top: 30px;
+  text-align: center;
+  width: 90px;
 `;
