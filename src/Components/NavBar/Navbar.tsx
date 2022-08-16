@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { IconContext } from "react-icons/lib";
 
 // IMAGES
 import Logo from "../../assets/Images/Logo.png";

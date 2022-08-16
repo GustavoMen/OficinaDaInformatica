@@ -1,11 +1,16 @@
 // IMAGES
 import { useState } from "react";
 
-import backgroundGrid from "../../assets/Images/home/BackgroundGrid.png";
 import imageOne from "../../assets/Images/home/image1.png";
+import LocationIconTwo from "../../assets/Images/home/LocationIconActiveted.png";
+import LocationIconOne from "../../assets/Images/home/LocationIconDesativeted.png";
+import serviceIconOne from "../../assets/Images/home/ServiceIconActiveted.png";
+import serviceIconTwo from "../../assets/Images/home/ServiceIconDesativeted.png";
 import SistemasIconTwo from "../../assets/Images/home/sistemaActiveted.png";
 import SistemasIconOne from "../../assets/Images/home/sistemaDesativeted.png";
-import { Container } from "../../globalStyles";
+import VendasIconTwo from "../../assets/Images/home/VendasIconActiveted.png";
+import VendasIconOne from "../../assets/Images/home/VendasIconDesativeted.png";
+import Cta from "../../Components/CTA/cta";
 import {
   MainText,
   Sectionone,
@@ -33,7 +38,7 @@ export default function Home() {
     setIcon(index);
   };
   return (
-    <Container>
+    <>
       <Sectionone>
         <ContainerText>
           <MainText>Compre produtos modernos.</MainText>
@@ -65,13 +70,65 @@ export default function Home() {
             </GridList>
             <GridBtn>Saiba Mais</GridBtn>
           </GridItem>
-          <GridItem>
-            <GridImageIcon />
-            <GridTitle>Sistemas</GridTitle>
-            <GridText>Soluções eficazes para impulsionar seus ganhos.</GridText>
+
+          <GridItem
+            onMouseOver={() => toggleIcon(2)}
+            onMouseOut={() => toggleIcon(0)}
+          >
+            <GridImageIcon src={Icon === 2 ? serviceIconTwo : serviceIconOne} />
+            <GridTitle>Serviços</GridTitle>
+            <GridText>
+              Projeto, instalação, e suporte em infraestrutura de TI.
+            </GridText>
+            <GridList>
+              <GridListText>Cabeamento de Rede</GridListText>
+              <GridListText>
+                Assistencia técnica para Computadores e Notebooks.
+              </GridListText>
+            </GridList>
+            <GridBtn>Saiba Mais</GridBtn>
+          </GridItem>
+
+          <GridItem
+            onMouseOver={() => toggleIcon(3)}
+            onMouseOut={() => toggleIcon(0)}
+          >
+            <GridImageIcon
+              src={Icon === 3 ? LocationIconTwo : LocationIconOne}
+            />
+            <GridTitle>Locação</GridTitle>
+            <GridText>
+              A Locação de Impressoras é uma solução eficiente e econômica para
+              sua empresa.
+            </GridText>
+            <GridList>
+              <GridListText>
+                Reduza custos na sua empresa com o aluguel de impressoras.
+              </GridListText>
+            </GridList>
+            <GridBtn>Saiba Mais</GridBtn>
+          </GridItem>
+
+          <GridItem
+            onMouseOver={() => toggleIcon(4)}
+            onMouseOut={() => toggleIcon(0)}
+          >
+            <GridImageIcon src={Icon === 4 ? VendasIconTwo : VendasIconOne} />
+            <GridTitle>Vendas</GridTitle>
+            <GridText>
+              Precisa Comprar Equipamentos, Perifericos e suprimentos de Alta
+              Qualidade?
+            </GridText>
+            <GridList>
+              <GridListText>
+                Veja alguns produtos disponiveis na loja.
+              </GridListText>
+            </GridList>
+            <GridBtn>Saiba Mais</GridBtn>
           </GridItem>
         </GridContainer>
       </SectionTwo>
-    </Container>
+      <Cta />
+    </>
   );
 }

@@ -7,6 +7,8 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
     max-width: 100vw;
+
+
 }
 `;
 

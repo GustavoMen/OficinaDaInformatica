@@ -18,6 +18,7 @@ export const Sectionone = styled.section`
 export const ContainerText = styled.div`
   width: 45%;
   margin-top: 100px;
+  padding-left: 50px;
 
   @media screen and (max-width: 996px) {
     width: 60%;
@@ -103,13 +104,18 @@ export const SectionTwoTitle = styled.h2`
 export const GridContainer = styled.div`
   padding-top: 40px;
   display: grid;
+  margin-bottom: 50px;
   grid-template-columns: 1fr 1fr;
-  justify-content: center;
   align-content: center;
+  justify-content: center;
+
+  @media screen and (max-width: 996px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const GridTitle = styled.h2`
-  font-size: 44px;
+  font-size: 42px;
   padding-top: 20px;
   text-align: center;
 `;
@@ -126,38 +132,44 @@ export const GridList = styled.ul`
   color: #696969;
   list-style: none;
   padding-top: 20px;
+  height: 120px;
 `;
 
 export const GridListText = styled.li`
   font-size: 24px;
-  font-weight: bold;
-  margin-top: 10px;
+  font-weight: 100;
+  padding-top: 5px;
   align-self: center;
 `;
 
 export const GridBtn = styled.button`
+  margin-top: 20px;
   border: none;
   font-size: 32px;
   font-weight: bold;
   color: #fff;
   border-radius: 10px;
-  margin-top: 35px;
   margin-bottom: 50px;
   background-color: #b72d2f;
   height: 45px;
   width: 75%;
+  display: none;
 `;
 
 export const GridItem = styled.div`
+  position: relative;
   text-align: center;
   margin: auto;
+  margin-top: 15px;
   width: 400px;
+  height: 500px;
   transition: all 1s ease;
   border-radius: 10px;
 
   &:hover {
     background: url(${backgroundGrid});
     background-size: cover;
+    transform: scale(1.05);
 
     ${GridTitle} {
       color: #fff;
@@ -173,6 +185,7 @@ export const GridItem = styled.div`
     ${GridBtn} {
       background-color: #fff;
       color: #b72d2f;
+      display: inline-block;
     }
   }
 `;
