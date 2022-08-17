@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Cta from "./Components/CTA/cta";
+import Cta from "./Components/CTA/Cta";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/NavBar/Navbar";
 import GlobalStyle from "./globalStyles";
 import Home from "./Pages/HomePage/Home";
+import Systems from "./Pages/SystemsPage/Systems";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <GlobalStyle />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/systems" element={<Systems />} />
         <Route path="/test" element={<Footer />} />
       </Routes>
       <Footer />
