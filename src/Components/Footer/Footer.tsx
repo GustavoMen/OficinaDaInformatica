@@ -15,14 +15,21 @@ function Footer() {
     <FooterContainer>
       <FooterItem>
         <ItemTitle>Contato:</ItemTitle>
-        <ItemNavigate>37 999999999</ItemNavigate>
-        <ItemNavigate>Fale com a gente!</ItemNavigate>
+        <ItemNavigate>Email</ItemNavigate>
+        <ItemNavigate>Rua .....</ItemNavigate>
         <ItemNavigate>
           Segunda a Sexta-feira 09h às 18h, Sabado 08h ás 12h
         </ItemNavigate>
       </FooterItem>
       <FooterItem>
         <ItemTitle>Redes Sociais</ItemTitle>
+        <LinkSocialMedia
+          target="_blank"
+          href="https://instagram.com/"
+          rel="noreferrer"
+        >
+          <ItemNavigate>Whatsapp</ItemNavigate>
+        </LinkSocialMedia>
         <LinkSocialMedia
           target="_blank"
           href="https://instagram.com/"

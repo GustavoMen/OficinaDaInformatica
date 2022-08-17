@@ -52,7 +52,17 @@ export const SecondText = styled.p`
   }
 `;
 
+export const WppImg = styled.img`
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  display: none;
+`;
+
 export const Btn = styled.button`
+  display: inline-block;
+  margin: auto;
   font-weight: bold;
   margin-top: 100px;
   width: 300px;
@@ -70,6 +80,11 @@ export const Btn = styled.button`
     transition: all 0.5s ease;
     border: 3px solid #b72d2f;
     background-color: #fff;
+    padding-bottom: 20px;
+
+    ${WppImg} {
+      display: inline-block;
+    }
   }
 
   @media screen and (max-width: 996px) {
@@ -144,7 +159,7 @@ export const GridList = styled.ul`
   color: #696969;
   list-style: none;
   padding-top: 20px;
-  height: 120px;
+  height: 135px;
 `;
 
 export const GridListText = styled.li`

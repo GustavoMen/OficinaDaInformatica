@@ -109,6 +109,11 @@ export const NavLinks = styled(Link)`
       transition: all 0.5s ease;
     }
   }
+
+  &:hover {
+    color: #b72d2f;
+    transform: scale(1.05);
+  }
 `;
 
 export const NavItemBtn = styled.li`

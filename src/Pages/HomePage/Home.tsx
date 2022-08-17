@@ -10,6 +10,7 @@ import SistemasIconTwo from "../../assets/Images/home/sistemaActiveted.png";
 import SistemasIconOne from "../../assets/Images/home/sistemaDesativeted.png";
 import VendasIconTwo from "../../assets/Images/home/VendasIconActiveted.png";
 import VendasIconOne from "../../assets/Images/home/VendasIconDesativeted.png";
+import WppImgLogo from "../../assets/Images/wppLogo.png";
 import {
   MainText,
   Sectionone,
@@ -18,6 +19,7 @@ import {
   Btn,
   ImgContainer,
   ImgOne,
+  WppImg,
   SectionTwo,
   SectionTwoTitle,
   GridContainer,
@@ -44,7 +46,11 @@ export default function Home() {
           <SecondText>
             Aumente a produtividade de seus equipamentos com produtos modernos.
           </SecondText>
-          <Btn>Entre em Contato</Btn>
+          <Btn>
+            <WppImg src={WppImgLogo} />
+            Entre em Contato
+            <WppImg src={WppImgLogo} />
+          </Btn>
         </ContainerText>
         <ImgContainer>
           <ImgOne src={imageOne} />
@@ -61,11 +67,12 @@ export default function Home() {
               src={Icon === 1 ? SistemasIconTwo : SistemasIconOne}
             />
             <GridTitle>Sistemas</GridTitle>
-            <GridText>Soluções eficazes para impulsionar seus ganhos.</GridText>
+            <GridText>Seu sistema de gestão on-line e suguro.</GridText>
             <GridList>
-              <GridListText>Soluções Comercias</GridListText>
-              <GridListText>Soluções Gerenciais</GridListText>
-              <GridListText>Soluções Fiscais</GridListText>
+              <GridListText>Comercias</GridListText>
+              <GridListText>Financeiras</GridListText>
+              <GridListText>Fiscais</GridListText>
+              <GridListText>Gerenciais</GridListText>
             </GridList>
             <GridBtn>Saiba Mais</GridBtn>
           </GridItem>

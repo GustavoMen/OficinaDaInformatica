@@ -9,9 +9,9 @@ export const Btn = styled.button`
   margin-right: 70px;
   color: #fff;
   background: none;
-  width: 220px;
-  height: 50px;
-  font-size: 24px;
+  width: 170px;
+  height: 30px;
+  font-size: 16px;
   font-weight: bold;
   transition: 0.6s ease;
 
@@ -22,14 +22,14 @@ export const Btn = styled.button`
 
 export const ImageDiv = styled.div`
   width: 100%;
-  height: 200px;
+  height: 120px;
   background: url(${backgroundImage});
   text-align: center;
 
-  @media screen and (max-width: 776px) {
-    height: 300px;
+  @media screen and (max-width: 656px) {
+    height: 200px;
     ${Btn} {
-      margin-top: 30px;
+      margin-top: 15px;
     }
   }
 `;
@@ -39,5 +39,5 @@ export const Text = styled.h3`
   padding-top: 30px;
   margin: auto;
   color: #fff;
-  font-size: 32px;
+  font-size: 24px;
 `;

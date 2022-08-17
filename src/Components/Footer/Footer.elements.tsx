@@ -31,6 +31,11 @@ export const ItemNavigate = styled.p`
   font-weight: bold;
   font-size: 18px;
   padding-top: 15px;
+
+  &:hover {
+    color: #b72d2f;
+    transform: scale(1.05);
+  }
 `;
 
 export const LogoFooter = styled.img`
