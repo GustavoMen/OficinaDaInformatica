@@ -1,7 +1,7 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 import backgroundGrid from "../../assets/Images/home/BackgroundGrid.png";
-
 /// Section One /////////////////////////////////////////
 
 export const Sectionone = styled.section`
@@ -145,6 +145,7 @@ export const GridTitle = styled.h2`
   font-size: 42px;
   padding-top: 20px;
   text-align: center;
+  color: #000;
 `;
 
 export const GridText = styled.p`
@@ -225,4 +226,10 @@ export const GridImageIcon = styled.img`
   padding-top: 30px;
   text-align: center;
   width: 90px;
+`;
+
+export const PageLinks = styled(Link)`
+  text-decoration: none;
+  border: none;
+  outline: none;
 `;

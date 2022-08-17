@@ -30,6 +30,7 @@ import {
   GridList,
   GridListText,
   GridBtn,
+  PageLinks,
 } from "./Home.elements";
 
 export default function Home() {
@@ -59,24 +60,25 @@ export default function Home() {
       <SectionTwo>
         <SectionTwoTitle>Quais problemas resolvemos para você?</SectionTwoTitle>
         <GridContainer>
-          <GridItem
-            onMouseOver={() => toggleIcon(1)}
-            onMouseOut={() => toggleIcon(0)}
-          >
-            <GridImageIcon
-              src={Icon === 1 ? SistemasIconTwo : SistemasIconOne}
-            />
-            <GridTitle>Sistemas</GridTitle>
-            <GridText>Seu sistema de gestão on-line e suguro.</GridText>
-            <GridList>
-              <GridListText>Comercias</GridListText>
-              <GridListText>Financeiras</GridListText>
-              <GridListText>Fiscais</GridListText>
-              <GridListText>Gerenciais</GridListText>
-            </GridList>
-            <GridBtn>Saiba Mais</GridBtn>
-          </GridItem>
-
+          <PageLinks to="/systems">
+            <GridItem
+              onMouseOver={() => toggleIcon(1)}
+              onMouseOut={() => toggleIcon(0)}
+            >
+              <GridImageIcon
+                src={Icon === 1 ? SistemasIconTwo : SistemasIconOne}
+              />
+              <GridTitle>Sistemas</GridTitle>
+              <GridText>Seu sistema de gestão on-line e suguro.</GridText>
+              <GridList>
+                <GridListText>Comercias</GridListText>
+                <GridListText>Financeiras</GridListText>
+                <GridListText>Fiscais</GridListText>
+                <GridListText>Gerenciais</GridListText>
+              </GridList>
+              <GridBtn>Saiba Mais</GridBtn>
+            </GridItem>
+          </PageLinks>
           <GridItem
             onMouseOver={() => toggleIcon(2)}
             onMouseOut={() => toggleIcon(0)}
