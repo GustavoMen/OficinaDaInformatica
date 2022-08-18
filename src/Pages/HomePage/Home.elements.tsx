@@ -32,7 +32,7 @@ export const ContainerText = styled.div`
   }
 `;
 export const MainText = styled.h1`
-  font-size: 48px;
+  font-size: 42px;
 
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -145,14 +145,14 @@ export const GridContainer = styled.div`
 `;
 
 export const GridTitle = styled.h2`
-  font-size: 42px;
+  font-size: 36px;
   padding-top: 20px;
   text-align: center;
   color: #000;
 `;
 
 export const GridText = styled.p`
-  font-size: 24px;
+  font-size: 22px;
   padding-top: 20px;
   text-align: center;
   color: #696969;
@@ -167,14 +167,13 @@ export const GridList = styled.ul`
 `;
 
 export const GridListText = styled.li`
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 100;
   padding-top: 5px;
   align-self: center;
 `;
 
 export const GridBtn = styled.button`
-  margin-top: 20px;
   border: none;
   font-size: 32px;
   font-weight: bold;
@@ -193,7 +192,7 @@ export const GridItem = styled.div`
   margin: auto;
   margin-top: 15px;
   width: 400px;
-  height: 500px;
+  height: 450px;
   transition: all 1s ease;
   border-radius: 10px;
 
