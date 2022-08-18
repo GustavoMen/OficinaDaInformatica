@@ -49,6 +49,7 @@ export const SecondText = styled.p`
   color: #696969;
   @media screen and (max-width: 996px) {
     text-align: center;
+    padding-bottom: 50px;
   }
 `;
 
@@ -81,6 +82,7 @@ export const Btn = styled.button`
     border: 3px solid #b72d2f;
     background-color: #fff;
     padding-bottom: 20px;
+    text-align: center;
 
     ${WppImg} {
       display: inline-block;
@@ -89,6 +91,7 @@ export const Btn = styled.button`
 
   @media screen and (max-width: 996px) {
     align-self: center;
+    margin: 0%;
   }
 `;
 

@@ -27,7 +27,7 @@ export const ImageDiv = styled.div`
   text-align: center;
 
   @media screen and (max-width: 656px) {
-    height: 200px;
+    height: 155px;
     ${Btn} {
       margin-top: 15px;
     }
