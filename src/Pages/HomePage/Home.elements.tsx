@@ -160,7 +160,7 @@ export const GridText = styled.p`
 `;
 
 export const GridList = styled.ul`
-  color: #696969;
+  color: #2e2e2e;
   list-style: none;
   padding-top: 20px;
   height: 135px;
