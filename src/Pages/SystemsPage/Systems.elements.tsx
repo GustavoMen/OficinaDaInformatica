@@ -157,7 +157,7 @@ export const GridContainerTextLeft = styled.div`
   width: 80%;
   margin-left: 50px;
   margin-bottom: 10px;
-  height: 450px;
+  height: 465px;
   margin-right: 25px;
   padding-bottom: 50px;
 

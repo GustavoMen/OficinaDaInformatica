@@ -86,6 +86,7 @@ export const SectionTwo = styled.section`
 
   @media screen and (max-width: 996px) {
     grid-template-columns: 1fr;
+    margin-bottom: 0;
   }
 `;
 
@@ -98,6 +99,10 @@ export const GridItem = styled.div`
   margin-top: 10px;
   margin-bottom: 20px;
   // border: 1px solid #000;
+
+  @media screen and (max-width: 996px) {
+    margin-top: 0;
+  }
 `;
 
 export const GridIcon = styled.img`
