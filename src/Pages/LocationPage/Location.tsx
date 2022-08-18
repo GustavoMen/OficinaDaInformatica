@@ -1,8 +1,8 @@
 import React from "react";
 
+import ImageOne from "../../assets/Images/location/Image.png";
 import locationIconOne from "../../assets/Images/location/LocationPageIconOne.svg";
 import locationIconTwo from "../../assets/Images/location/LocationPageIconTwo.svg";
-import ImageOne from "../../assets/Images/services/ServicePageImageOne.png";
 import {
   MainText,
   Sectionone,
@@ -17,7 +17,10 @@ import {
   ItemText,
   ImageDiv,
   Btn,
-  Text,
+  ImageText,
+  SectionThree,
+  SectionThreeTitle,
+  SectionThreeSubTitle,
 } from "./Location.elements";
 
 function Location() {
@@ -57,10 +60,15 @@ function Location() {
         </SectionTwoDiv>
 
         <ImageDiv>
-          <Text>Entre em Contato agora mesmo!</Text>
+          <ImageText>Entre em Contato agora mesmo!</ImageText>
           <Btn>37 999999999</Btn>
         </ImageDiv>
       </SectionTwo>
+
+      <SectionThree>
+        <SectionThreeTitle>Diferenciais</SectionThreeTitle>
+        <SectionThreeSubTitle>Por que escolher a locação?</SectionThreeSubTitle>
+      </SectionThree>
     </>
   );
 }

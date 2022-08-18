@@ -90,12 +90,21 @@ export const SectionTwoDiv = styled.div`
   width: 90%;
   display: flex;
   flex-direction: row;
+
+  @media screen and (max-width: 996px) {
+    flex-direction: column;
+  }
 `;
 
 export const ItemDiv = styled.div`
   display: flex;
   flex-direction: row;
   width: 45%;
+
+  @media screen and (max-width: 996px) {
+    margin-top: 20px;
+    width: 80%;
+  }
 `;
 
 export const ItemLogo = styled.img`
@@ -141,10 +150,25 @@ export const ImageDiv = styled.div`
   }
 `;
 
-export const Text = styled.h3`
+export const ImageText = styled.h3`
   width: 400px;
   padding-top: 30px;
   margin: auto;
   color: #fff;
   font-size: 24px;
+`;
+
+/// Section Three ///////////////////////
+
+export const SectionThree = styled.section``;
+
+export const SectionThreeTitle = styled.h2`
+  margin-top: 30px;
+  font-size: 32px;
+  color: #b72d2f;
+  text-align: center;
+`;
+
+export const SectionThreeSubTitle = styled.p`
+  text-align: center;
 `;
