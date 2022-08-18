@@ -83,6 +83,10 @@ export const SectionTwo = styled.section`
   grid-gap: 20px;
   margin-bottom: 30px;
   border-bottom: 4px solid #b72d2f;
+
+  @media screen and (max-width: 996px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const GridItem = styled.div`
