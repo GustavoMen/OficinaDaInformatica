@@ -1,7 +1,7 @@
 // IMAGES
 import { useState } from "react";
 
-import imageOne from "../../assets/Images/home/image1.png";
+import imageOne from "../../assets/Images/home/Image1.png";
 import LocationIconTwo from "../../assets/Images/home/LocationIconActiveted.png";
 import LocationIconOne from "../../assets/Images/home/LocationIconDesativeted.png";
 import serviceIconOne from "../../assets/Images/home/ServiceIconActiveted.png";
