@@ -12,8 +12,6 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavItemBtn,
-  NavBtnLink,
 } from "./Navbar.elements";
 
 function Navbar() {

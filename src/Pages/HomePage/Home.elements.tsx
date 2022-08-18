@@ -223,7 +223,7 @@ export const GridItem = styled.div`
 `;
 
 export const GridImageIcon = styled.img`
-  padding-top: 30px;
+  padding-top: 15px;
   text-align: center;
   width: 90px;
 `;

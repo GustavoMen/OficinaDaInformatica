@@ -2,14 +2,14 @@
 import { useState } from "react";
 
 import imageOne from "../../assets/Images/home/Image1.png";
-import LocationIconTwo from "../../assets/Images/home/LocationIconActiveted.png";
-import LocationIconOne from "../../assets/Images/home/LocationIconDesativeted.png";
-import serviceIconOne from "../../assets/Images/home/ServiceIconActiveted.png";
-import serviceIconTwo from "../../assets/Images/home/ServiceIconDesativeted.png";
-import SistemasIconTwo from "../../assets/Images/home/sistemaActiveted.png";
-import SistemasIconOne from "../../assets/Images/home/sistemaDesativeted.png";
-import VendasIconTwo from "../../assets/Images/home/VendasIconActiveted.png";
-import VendasIconOne from "../../assets/Images/home/VendasIconDesativeted.png";
+import LocationIconTwo from "../../assets/Images/home/LocationIconActiveted.svg";
+import LocationIconOne from "../../assets/Images/home/LocationIconDesativeted.svg";
+import ServiceIconOne from "../../assets/Images/home/ServiceIconActiveted.svg";
+import ServiceIconTwo from "../../assets/Images/home/ServiceIconDesativeted.svg";
+import SistemasIconTwo from "../../assets/Images/home/sistemaActiveted.svg";
+import SistemasIconOne from "../../assets/Images/home/sistemaDesativeted.svg";
+import VendasIconTwo from "../../assets/Images/home/VendasIconActiveted.svg";
+import VendasIconOne from "../../assets/Images/home/VendasIconDesativeted.svg";
 import WppImgLogo from "../../assets/Images/wppLogo.png";
 import {
   MainText,
@@ -83,7 +83,7 @@ export default function Home() {
             onMouseOver={() => toggleIcon(2)}
             onMouseOut={() => toggleIcon(0)}
           >
-            <GridImageIcon src={Icon === 2 ? serviceIconTwo : serviceIconOne} />
+            <GridImageIcon src={Icon === 2 ? ServiceIconTwo : ServiceIconOne} />
             <GridTitle>Serviços</GridTitle>
             <GridText>
               Projeto, instalação, e suporte em infraestrutura de TI.
