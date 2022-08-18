@@ -164,11 +164,57 @@ export const SectionThree = styled.section``;
 
 export const SectionThreeTitle = styled.h2`
   margin-top: 30px;
-  font-size: 32px;
+  font-size: 38px;
   color: #b72d2f;
   text-align: center;
 `;
 
 export const SectionThreeSubTitle = styled.p`
+  margin-top: 10px;
+  font-size: 22px;
+  color: #696969;
+  font-weight: bold;
   text-align: center;
+`;
+
+export const GridContainer = styled.div`
+  margin-top: 30px;
+  margin-bottom: 100px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-items: center;
+
+  @media screen and (max-width: 996px) {
+    grid-template-columns: 1fr;
+  }
+`;
+
+export const GridItem = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin-top: 70px;
+`;
+
+export const GridIcon = styled.img`
+  height: 60px;
+`;
+
+export const GridDivText = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+`;
+
+export const GridTitle = styled.h3`
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 24px;
+`;
+
+export const GridText = styled.p`
+  color: #696969;
+  font-weight: bold;
 `;

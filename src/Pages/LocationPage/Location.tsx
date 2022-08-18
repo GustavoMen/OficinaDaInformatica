@@ -1,7 +1,11 @@
 import React from "react";
 
 import ImageOne from "../../assets/Images/location/Image.png";
+import locationIconFive from "../../assets/Images/location/LocationPageIconFive.svg";
+import locationIconFour from "../../assets/Images/location/LocationPageIconFour.svg";
 import locationIconOne from "../../assets/Images/location/LocationPageIconOne.svg";
+import locationIconSix from "../../assets/Images/location/LocationPageIconSix.svg";
+import locationIconThree from "../../assets/Images/location/LocationPageIconThree.svg";
 import locationIconTwo from "../../assets/Images/location/LocationPageIconTwo.svg";
 import {
   MainText,
@@ -21,6 +25,12 @@ import {
   SectionThree,
   SectionThreeTitle,
   SectionThreeSubTitle,
+  GridContainer,
+  GridItem,
+  GridIcon,
+  GridDivText,
+  GridTitle,
+  GridText,
 } from "./Location.elements";
 
 function Location() {
@@ -68,6 +78,54 @@ function Location() {
       <SectionThree>
         <SectionThreeTitle>Diferenciais</SectionThreeTitle>
         <SectionThreeSubTitle>Por que escolher a locação?</SectionThreeSubTitle>
+
+        <GridContainer>
+          <GridItem>
+            <GridIcon src={locationIconThree} />
+            <GridDivText>
+              <GridTitle>Atendimento Técnico</GridTitle>
+              <GridText>
+                Além da manutenção preventiva, qualquer problema que venha a
+                ocorrer será solucionado por Técnicos rapidamente.
+              </GridText>
+            </GridDivText>
+          </GridItem>
+
+          <GridItem>
+            <GridIcon src={locationIconFour} />
+            <GridDivText>
+              <GridTitle>Redução de custos</GridTitle>
+              <GridText>
+                Proporcionamos economia de recursos e produtividade, com
+                especialistas para realizar a instalação e manutenção dos
+                equipamentos.
+              </GridText>
+            </GridDivText>
+          </GridItem>
+
+          <GridItem>
+            <GridIcon src={locationIconFive} />
+            <GridDivText>
+              <GridTitle>Manutenção Preventiva</GridTitle>
+              <GridText>
+                Para evitar imprevistos nossos técnicos realizam a manutenção
+                preventiva périodica, assim aumentando a vida útil do
+                equipamento.
+              </GridText>
+            </GridDivText>
+          </GridItem>
+
+          <GridItem>
+            <GridIcon src={locationIconSix} />
+            <GridDivText>
+              <GridTitle>Equipamento pronta-entrega</GridTitle>
+              <GridText>
+                Todos os equipamentos prontos para uso, sendo entregues o mais
+                rapido possivel para que seu rendimento não seja atrapalhado.
+              </GridText>
+            </GridDivText>
+          </GridItem>
+        </GridContainer>
       </SectionThree>
     </>
   );
