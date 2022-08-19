@@ -30,7 +30,7 @@ function Systems() {
           </SecondText>
         </ContainerText>
         <ImgContainer>
-          <ImgOne src={ImageOne} />
+          <ImgOne src={ImageOne} alt="imagem ilustrativa" />
         </ImgContainer>
       </Sectionone>
 

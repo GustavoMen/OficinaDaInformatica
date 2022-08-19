@@ -33,13 +33,13 @@ function Service() {
           </SecondText>
         </ContainerText>
         <ImgContainer>
-          <ImgOne src={ImageOne} />
+          <ImgOne src={ImageOne} alt="Imagem Ilustrativa" />
         </ImgContainer>
       </Sectionone>
 
       <SectionTwo>
         <GridItem>
-          <GridIcon src={iconGridFour} />
+          <GridIcon src={iconGridOne} alt="Icone Desempenho" />
           <GridMainText>Limpeza de Computadores</GridMainText>
           <GridText>
             A limpeza interna do computador é essencial para o bom funcionamento
@@ -48,7 +48,7 @@ function Service() {
         </GridItem>
 
         <GridItem>
-          <GridIcon src={iconGridTwo} />
+          <GridIcon src={iconGridTwo} alt="Icone Computador" />
           <GridMainText>Manutenção de Computadores e Notebooks</GridMainText>
           <GridText>
             Formatação, limpeza interna, troca de pasta térmica, troca de tela,
@@ -58,7 +58,7 @@ function Service() {
         </GridItem>
 
         <GridItem>
-          <GridIcon src={iconGridSix} />
+          <GridIcon src={iconGridSix} alt="Icone Proteção" />
           <GridMainText>Otimazação de Desempenho</GridMainText>
           <GridText>
             Seu Pc está travando? Vamos descobrir o problema. Configurações
@@ -68,7 +68,7 @@ function Service() {
         </GridItem>
 
         <GridItem>
-          <GridIcon src={iconGridOne} />
+          <GridIcon src={iconGridFour} alt="Icone Backup" />
           <GridMainText>Backup de Dados</GridMainText>
           <GridText>
             Mesmo que seu equipamento não ligue, fazemos backup do seus dados.
@@ -76,7 +76,7 @@ function Service() {
         </GridItem>
 
         <GridItem>
-          <GridIcon src={iconGridFive} />
+          <GridIcon src={iconGridFive} alt="Icone Suporte" />
           <GridMainText>Suporte Técnico</GridMainText>
           <GridText>
             Traga seu Pc ou Notebook para ser avaliado pelo técnico responsável.
@@ -84,7 +84,7 @@ function Service() {
         </GridItem>
 
         <GridItem>
-          <GridIcon src={iconGridThree} />
+          <GridIcon src={iconGridThree} alt="Icone limpando" />
           <GridMainText>Remoção de Vírus</GridMainText>
           <GridText>
             Realizamos remoção de vírus em computadores e notebooks.

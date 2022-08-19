@@ -38,7 +38,7 @@ function Navbar() {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/" onClick={closeMobileMenu}>
-          <NavIcon src={Logo} />
+          <NavIcon src={Logo} alt="Logo" />
         </NavLogo>
         <MobileIcon onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars />}

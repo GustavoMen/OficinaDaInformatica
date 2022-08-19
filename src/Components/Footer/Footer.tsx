@@ -39,7 +39,7 @@ function Footer() {
         </LinkSocialMedia>
 
         <ItemNavigate>Facebook</ItemNavigate>
-        <LogoFooter src={Logo} />
+        <LogoFooter src={Logo} alt="Logo" />
       </FooterItem>
 
       <FooterItem>

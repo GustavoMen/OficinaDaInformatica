@@ -48,13 +48,13 @@ export default function Home() {
             Aumente a produtividade de seus equipamentos com produtos modernos.
           </SecondText>
           <Btn>
-            <WppImg src={WppImgLogo} />
+            <WppImg src={WppImgLogo} alt="Whatsapp Logo" />
             Entre em Contato
-            <WppImg src={WppImgLogo} />
+            <WppImg src={WppImgLogo} alt="Whatsapp Logo" />
           </Btn>
         </ContainerText>
         <ImgContainer>
-          <ImgOne src={imageOne} />
+          <ImgOne src={imageOne} alt="Imagem ilustrativa" />
         </ImgContainer>
       </Sectionone>
       <SectionTwo>
@@ -67,6 +67,7 @@ export default function Home() {
             >
               <GridImageIcon
                 src={Icon === 1 ? SistemasIconTwo : SistemasIconOne}
+                alt="Icone Sistemas"
               />
               <GridTitle>Sistemas</GridTitle>
               <GridText>Seu sistema de gestão on-line e suguro.</GridText>
@@ -83,7 +84,10 @@ export default function Home() {
             onMouseOver={() => toggleIcon(2)}
             onMouseOut={() => toggleIcon(0)}
           >
-            <GridImageIcon src={Icon === 2 ? ServiceIconTwo : ServiceIconOne} />
+            <GridImageIcon
+              src={Icon === 2 ? ServiceIconTwo : ServiceIconOne}
+              alt="Icone Serviços"
+            />
             <GridTitle>Serviços</GridTitle>
             <GridText>
               Projeto, instalação, e suporte em infraestrutura de TI.
@@ -103,6 +107,7 @@ export default function Home() {
           >
             <GridImageIcon
               src={Icon === 3 ? LocationIconTwo : LocationIconOne}
+              alt="Icone Locação"
             />
             <GridTitle>Locação</GridTitle>
             <GridText>
@@ -121,7 +126,10 @@ export default function Home() {
             onMouseOver={() => toggleIcon(4)}
             onMouseOut={() => toggleIcon(0)}
           >
-            <GridImageIcon src={Icon === 4 ? VendasIconTwo : VendasIconOne} />
+            <GridImageIcon
+              src={Icon === 4 ? VendasIconTwo : VendasIconOne}
+              alt="Icone Vendas"
+            />
             <GridTitle>Vendas</GridTitle>
             <GridText>
               Precisa Comprar Equipamentos, Perifericos e suprimentos de Alta

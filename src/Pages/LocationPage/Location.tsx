@@ -48,13 +48,13 @@ function Location() {
           </SecondText>
         </ContainerText>
         <ImgContainer>
-          <ImgOne src={ImageOne} />
+          <ImgOne src={ImageOne} alt="Imagem ilustrativa" />
         </ImgContainer>
       </Sectionone>
       <SectionTwo>
         <SectionTwoDiv>
           <ItemDiv>
-            <ItemLogo src={locationIconOne} />
+            <ItemLogo src={locationIconOne} alt="Grafico Subindo" />
             <ItemText>
               Locação de impressoras de diversos tipos e para todos os
               segmentos.
@@ -62,7 +62,7 @@ function Location() {
           </ItemDiv>
 
           <ItemDiv>
-            <ItemLogo src={locationIconTwo} />
+            <ItemLogo src={locationIconTwo} alt="Icone Dinheiro" />
             <ItemText>
               Proporcionamos economia de recursos e produtividade.
             </ItemText>
@@ -81,7 +81,7 @@ function Location() {
 
         <GridContainer>
           <GridItem>
-            <GridIcon src={locationIconThree} />
+            <GridIcon src={locationIconThree} alt="Icone Atendimento" />
             <GridDivText>
               <GridTitle>Atendimento Técnico</GridTitle>
               <GridText>
@@ -92,7 +92,7 @@ function Location() {
           </GridItem>
 
           <GridItem>
-            <GridIcon src={locationIconFour} />
+            <GridIcon src={locationIconFour} alt="Icone Dinheiro" />
             <GridDivText>
               <GridTitle>Redução de custos</GridTitle>
               <GridText>
@@ -104,7 +104,7 @@ function Location() {
           </GridItem>
 
           <GridItem>
-            <GridIcon src={locationIconFive} />
+            <GridIcon src={locationIconFive} alt="Icone Manutenção" />
             <GridDivText>
               <GridTitle>Manutenção Preventiva</GridTitle>
               <GridText>
@@ -116,7 +116,7 @@ function Location() {
           </GridItem>
 
           <GridItem>
-            <GridIcon src={locationIconSix} />
+            <GridIcon src={locationIconSix} alt="Icone Entrega" />
             <GridDivText>
               <GridTitle>Equipamento pronta-entrega</GridTitle>
               <GridText>
