@@ -83,6 +83,7 @@ export const SectionTwo = styled.section`
     grid-template-columns: 1fr;
     width: 70%;
     margin: auto;
+    justify-items: center;
   }
 `;
 
@@ -162,7 +163,7 @@ export const GridContainerTextLeft = styled.div`
   padding-bottom: 50px;
 
   @media screen and (max-width: 996px) {
-    margin-left: 10px;
+    margin-left: 0px;
     margin-right: 0;
   }
 `;
