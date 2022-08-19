@@ -80,68 +80,75 @@ export default function Home() {
               <GridBtn>Saiba Mais</GridBtn>
             </GridItem>
           </PageLinks>
-          <GridItem
-            onMouseOver={() => toggleIcon(2)}
-            onMouseOut={() => toggleIcon(0)}
-          >
-            <GridImageIcon
-              src={Icon === 2 ? ServiceIconTwo : ServiceIconOne}
-              alt="Icone Serviços"
-            />
-            <GridTitle>Serviços</GridTitle>
-            <GridText>
-              Projeto, instalação, e suporte em infraestrutura de TI.
-            </GridText>
-            <GridList>
-              <GridListText>Cabeamento de Rede</GridListText>
-              <GridListText>
-                Assistencia técnica para Computadores e Notebooks.
-              </GridListText>
-            </GridList>
-            <GridBtn>Saiba Mais</GridBtn>
-          </GridItem>
 
-          <GridItem
-            onMouseOver={() => toggleIcon(3)}
-            onMouseOut={() => toggleIcon(0)}
-          >
-            <GridImageIcon
-              src={Icon === 3 ? LocationIconTwo : LocationIconOne}
-              alt="Icone Locação"
-            />
-            <GridTitle>Locação</GridTitle>
-            <GridText>
-              A Locação de Impressoras é uma solução eficiente e econômica para
-              sua empresa.
-            </GridText>
-            <GridList>
-              <GridListText>
-                Reduza custos na sua empresa com o aluguel de impressoras.
-              </GridListText>
-            </GridList>
-            <GridBtn>Saiba Mais</GridBtn>
-          </GridItem>
+          <PageLinks to="/services">
+            <GridItem
+              onMouseOver={() => toggleIcon(2)}
+              onMouseOut={() => toggleIcon(0)}
+            >
+              <GridImageIcon
+                src={Icon === 2 ? ServiceIconTwo : ServiceIconOne}
+                alt="Icone Serviços"
+              />
+              <GridTitle>Serviços</GridTitle>
+              <GridText>
+                Projeto, instalação, e suporte em infraestrutura de TI.
+              </GridText>
+              <GridList>
+                <GridListText>Cabeamento de Rede</GridListText>
+                <GridListText>
+                  Assistencia técnica para Computadores e Notebooks.
+                </GridListText>
+              </GridList>
+              <GridBtn>Saiba Mais</GridBtn>
+            </GridItem>
+          </PageLinks>
 
-          <GridItem
-            onMouseOver={() => toggleIcon(4)}
-            onMouseOut={() => toggleIcon(0)}
-          >
-            <GridImageIcon
-              src={Icon === 4 ? VendasIconTwo : VendasIconOne}
-              alt="Icone Vendas"
-            />
-            <GridTitle>Vendas</GridTitle>
-            <GridText>
-              Precisa Comprar Equipamentos, Perifericos e suprimentos de Alta
-              Qualidade?
-            </GridText>
-            <GridList>
-              <GridListText>
-                Veja alguns produtos disponiveis na loja.
-              </GridListText>
-            </GridList>
-            <GridBtn>Saiba Mais</GridBtn>
-          </GridItem>
+          <PageLinks to="/location">
+            <GridItem
+              onMouseOver={() => toggleIcon(3)}
+              onMouseOut={() => toggleIcon(0)}
+            >
+              <GridImageIcon
+                src={Icon === 3 ? LocationIconTwo : LocationIconOne}
+                alt="Icone Locação"
+              />
+              <GridTitle>Locação</GridTitle>
+              <GridText>
+                A Locação de Impressoras é uma solução eficiente e econômica
+                para sua empresa.
+              </GridText>
+              <GridList>
+                <GridListText>
+                  Reduza custos na sua empresa com o aluguel de impressoras.
+                </GridListText>
+              </GridList>
+              <GridBtn>Saiba Mais</GridBtn>
+            </GridItem>
+          </PageLinks>
+
+          <PageLinks to="/products">
+            <GridItem
+              onMouseOver={() => toggleIcon(4)}
+              onMouseOut={() => toggleIcon(0)}
+            >
+              <GridImageIcon
+                src={Icon === 4 ? VendasIconTwo : VendasIconOne}
+                alt="Icone Vendas"
+              />
+              <GridTitle>Vendas</GridTitle>
+              <GridText>
+                Precisa Comprar Equipamentos, Perifericos e suprimentos de Alta
+                Qualidade?
+              </GridText>
+              <GridList>
+                <GridListText>
+                  Veja alguns produtos disponiveis na loja.
+                </GridListText>
+              </GridList>
+              <GridBtn>Saiba Mais</GridBtn>
+            </GridItem>
+          </PageLinks>
         </GridContainer>
       </SectionTwo>
     </>
