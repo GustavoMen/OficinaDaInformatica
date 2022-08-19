@@ -109,7 +109,7 @@ export const ImgContainer = styled.div`
 `;
 
 export const ImgOne = styled.img`
-  width: 40vw;
+  width: 35vw;
   @media screen and (max-width: 996px) {
     width: 80%;
   }
