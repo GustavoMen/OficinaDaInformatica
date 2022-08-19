@@ -3,7 +3,7 @@ import React from "react";
 import mouseImage from "../../assets/Images/Market/LojaPageProduct.png";
 import webCamImage from "../../assets/Images/Market/LojaPageProductEight.png";
 import gabineteImage from "../../assets/Images/Market/LojaPageProductFive.png";
-import impressoraImage from "../../assets/Images/Market/LojaPageProductfour.png";
+import impressoraImage from "../../assets/Images/Market/LojaPageProductFour.png";
 import tonnerImage from "../../assets/Images/Market/LojaPageProductNine.png";
 import ssdImage from "../../assets/Images/Market/LojaPageProductSeven.png";
 import leitorImage from "../../assets/Images/Market/LojaPageProductSix.png";
