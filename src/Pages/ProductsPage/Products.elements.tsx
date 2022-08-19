@@ -69,7 +69,7 @@ export const GridProductsContainer = styled.div`
 export const GridProduct = styled.div`
   margin-top: 40px;
   box-shadow: 2px 4px #888888;
-  width: 230px;
+  width: 250px;
   align-items: center;
   justify-items: center;
   display: flex;

@@ -64,7 +64,7 @@ function Products() {
           <GridContainerImage>
             <GridImage src={impressoraImage} />
           </GridContainerImage>
-          <GridTitle>Fones/Headset</GridTitle>
+          <GridTitle>Impressoras</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
           <GridBtn>Entre em Contato</GridBtn>
         </GridProduct>
@@ -73,7 +73,7 @@ function Products() {
           <GridContainerImage>
             <GridImage src={gabineteImage} />
           </GridContainerImage>
-          <GridTitle>Fones/Headset</GridTitle>
+          <GridTitle>Gabinetes</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
           <GridBtn>Entre em Contato</GridBtn>
         </GridProduct>
@@ -82,7 +82,7 @@ function Products() {
           <GridContainerImage>
             <GridImage src={leitorImage} />
           </GridContainerImage>
-          <GridTitle>Fones/Headset</GridTitle>
+          <GridTitle>Leitor de barras</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
           <GridBtn>Entre em Contato</GridBtn>
         </GridProduct>
@@ -91,7 +91,7 @@ function Products() {
           <GridContainerImage>
             <GridImage src={ssdImage} />
           </GridContainerImage>
-          <GridTitle>Fones/Headset</GridTitle>
+          <GridTitle>Ssd's</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
           <GridBtn>Entre em Contato</GridBtn>
         </GridProduct>
@@ -100,7 +100,7 @@ function Products() {
           <GridContainerImage>
             <GridImage src={webCamImage} />
           </GridContainerImage>
-          <GridTitle>Fones/Headset</GridTitle>
+          <GridTitle>Webcam's</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
           <GridBtn>Entre em Contato</GridBtn>
         </GridProduct>
@@ -109,7 +109,7 @@ function Products() {
           <GridContainerImage>
             <GridImage src={tonnerImage} />
           </GridContainerImage>
-          <GridTitle>Fones/Headset</GridTitle>
+          <GridTitle>Toner</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
           <GridBtn>Entre em Contato</GridBtn>
         </GridProduct>
