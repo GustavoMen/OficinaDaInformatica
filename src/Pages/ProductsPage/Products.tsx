@@ -35,7 +35,7 @@ function Products() {
       <GridProductsContainer>
         <GridProduct>
           <GridContainerImage>
-            <GridImage src={mouseImage} />
+            <GridImage src={mouseImage} alt="Mouse" />
           </GridContainerImage>
           <GridTitle>Mouses</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
@@ -44,7 +44,7 @@ function Products() {
 
         <GridProduct>
           <GridContainerImage>
-            <GridImage src={tecladoImage} />
+            <GridImage src={tecladoImage} alt="teclado" />
           </GridContainerImage>
           <GridTitle>Teclados</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
@@ -53,7 +53,7 @@ function Products() {
 
         <GridProduct>
           <GridContainerImage>
-            <GridImage src={foneImage} />
+            <GridImage src={foneImage} alt="fone" />
           </GridContainerImage>
           <GridTitle>Fones/Headset</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
@@ -62,7 +62,7 @@ function Products() {
 
         <GridProduct>
           <GridContainerImage>
-            <GridImage src={impressoraImage} />
+            <GridImage src={impressoraImage} alt="impressora" />
           </GridContainerImage>
           <GridTitle>Impressoras</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
@@ -71,7 +71,7 @@ function Products() {
 
         <GridProduct>
           <GridContainerImage>
-            <GridImage src={gabineteImage} />
+            <GridImage src={gabineteImage} alt="gabinete" />
           </GridContainerImage>
           <GridTitle>Gabinetes</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
@@ -80,7 +80,7 @@ function Products() {
 
         <GridProduct>
           <GridContainerImage>
-            <GridImage src={leitorImage} />
+            <GridImage src={leitorImage} alt="leitor qr code" />
           </GridContainerImage>
           <GridTitle>Leitor de barras</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
@@ -89,7 +89,7 @@ function Products() {
 
         <GridProduct>
           <GridContainerImage>
-            <GridImage src={ssdImage} />
+            <GridImage src={ssdImage} alt="SSD" />
           </GridContainerImage>
           <GridTitle>Ssd's</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
@@ -98,7 +98,7 @@ function Products() {
 
         <GridProduct>
           <GridContainerImage>
-            <GridImage src={webCamImage} />
+            <GridImage src={webCamImage} alt="WebCam" />
           </GridContainerImage>
           <GridTitle>Webcam's</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
@@ -107,7 +107,7 @@ function Products() {
 
         <GridProduct>
           <GridContainerImage>
-            <GridImage src={tonnerImage} />
+            <GridImage src={tonnerImage} alt="Toner impressora" />
           </GridContainerImage>
           <GridTitle>Toner</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
