@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 /// Footer //////////////////////////////
@@ -38,6 +39,13 @@ export const ItemNavigate = styled.p`
   }
 `;
 
+export const ItemContact = styled.p`
+  color: #696969;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 15px;
+`;
+
 export const LogoFooter = styled.img`
   height: 50px;
   margin-top: 20px;
@@ -45,4 +53,10 @@ export const LogoFooter = styled.img`
 
 export const LinkSocialMedia = styled.a`
   text-decoration: none;
+`;
+
+export const PageLinks = styled(Link)`
+  text-decoration: none;
+  border: none;
+  outline: none;
 `;
