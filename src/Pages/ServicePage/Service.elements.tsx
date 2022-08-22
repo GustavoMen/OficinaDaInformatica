@@ -47,6 +47,7 @@ export const SecondText = styled.p`
   margin-top: 60px;
   font-size: 24px;
   color: #696969;
+  font-weight: bold;
   @media screen and (max-width: 996px) {
     text-align: center;
   }
@@ -119,4 +120,5 @@ export const GridMainText = styled.h3`
 export const GridText = styled.p`
   color: #696969;
   font-size: 18px;
+  font-weight: bold;
 `;

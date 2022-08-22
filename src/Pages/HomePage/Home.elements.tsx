@@ -33,6 +33,7 @@ export const ContainerText = styled.div`
 `;
 export const MainText = styled.h1`
   font-size: 42px;
+  font-weight: 1000;
 
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -47,6 +48,7 @@ export const SecondText = styled.p`
   margin-top: 30px;
   font-size: 24px;
   color: #696969;
+  font-weight: bold;
   @media screen and (max-width: 996px) {
     text-align: center;
     padding-bottom: 50px;
@@ -171,12 +173,13 @@ export const GridListText = styled.li`
   font-weight: 100;
   padding-top: 5px;
   align-self: center;
+  font-weight: bold;
 `;
 
 export const GridBtn = styled.button`
   border: none;
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 1000;
   color: #fff;
   border-radius: 10px;
   margin-top: 10px;

@@ -47,6 +47,7 @@ export const SecondText = styled.p`
   margin-top: 60px;
   font-size: 24px;
   color: #696969;
+  font-weight: bold;
   @media screen and (max-width: 996px) {
     text-align: center;
   }

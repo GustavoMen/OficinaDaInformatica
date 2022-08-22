@@ -81,6 +81,7 @@ export const NavItem = styled.li`
   font-size: 15px;
   height: 80px;
   border-bottom: 2px solid transparent;
+  font-weight: bold;
   &:hover {
     border-bottom: 2px solid #b72d2f;
   }
