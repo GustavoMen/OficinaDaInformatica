@@ -66,7 +66,7 @@ export const Btn = styled.button`
   margin: auto;
   font-weight: bold;
   margin-top: 100px;
-  width: 300px;
+  width: 80%;
   height: 50px;
   background-color: #b72d2f;
   color: #fff;
