@@ -48,6 +48,11 @@ export const Text = styled.h3`
   font-size: 24px;
 `;
 
+export const Icon = styled.img`
+  height: 20px;
+  margin-right: 10px;
+`;
+
 /// Grid Products ///////////////////
 
 export const GridProductsContainer = styled.div`

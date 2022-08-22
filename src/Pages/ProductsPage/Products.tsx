@@ -1,5 +1,6 @@
-import React from "react";
+import { useCopyToClipboard } from "usehooks-ts";
 
+import copyIcon from "../../assets/Images/copy.svg";
 import mouseImage from "../../assets/Images/Market/LojaPageProduct.png";
 import webCamImage from "../../assets/Images/Market/LojaPageProductEight.png";
 import gabineteImage from "../../assets/Images/Market/LojaPageProductFive.png";
@@ -9,11 +10,13 @@ import ssdImage from "../../assets/Images/Market/LojaPageProductSeven.png";
 import leitorImage from "../../assets/Images/Market/LojaPageProductSix.png";
 import foneImage from "../../assets/Images/Market/LojaPageProductThree.png";
 import tecladoImage from "../../assets/Images/Market/LojaPageProductTwo.png";
+import wppIcon from "../../assets/Images/wpp.svg";
 import {
   SectionOne,
   ImageDiv,
   Text,
   Btn,
+  Icon,
   GridProductsContainer,
   GridProduct,
   GridContainerImage,
@@ -24,12 +27,19 @@ import {
 } from "./Products.elements";
 
 function Products() {
+  const [value, copy] = useCopyToClipboard();
   return (
     <SectionOne>
       <ImageDiv>
         <Text>Veja os Periféricos mais vendidos</Text>
-        <Btn>37 999999999</Btn>
-        <Btn>37 999999999</Btn>
+        <Btn onClick={() => copy("37 999999999")}>
+          <Icon src={copyIcon} />
+          37 999999999
+        </Btn>
+        <Btn>
+          <Icon src={wppIcon} />
+          37 999999999
+        </Btn>
       </ImageDiv>
 
       <GridProductsContainer>

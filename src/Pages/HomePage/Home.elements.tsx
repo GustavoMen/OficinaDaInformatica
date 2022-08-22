@@ -163,7 +163,7 @@ export const GridList = styled.ul`
   color: #2e2e2e;
   list-style: none;
   padding-top: 20px;
-  height: 135px;
+  height: 120px;
 `;
 
 export const GridListText = styled.li`
@@ -179,9 +179,9 @@ export const GridBtn = styled.button`
   font-weight: bold;
   color: #fff;
   border-radius: 10px;
-  margin-bottom: 50px;
+  margin-top: 10px;
   background-color: #b72d2f;
-  height: 45px;
+  height: 40px;
   width: 75%;
   display: none;
 `;
