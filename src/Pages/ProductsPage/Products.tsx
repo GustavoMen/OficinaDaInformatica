@@ -24,6 +24,7 @@ import {
   GridTitle,
   GridText,
   GridBtn,
+  LinkSocialMedia,
 } from "./Products.elements";
 
 function Products() {
@@ -36,10 +37,16 @@ function Products() {
           <Icon src={copyIcon} />
           37 999999999
         </Btn>
-        <Btn>
-          <Icon src={wppIcon} />
-          37 999999999
-        </Btn>
+        <LinkSocialMedia
+          target="_blank"
+          href="https://wa.me/553788087079"
+          rel="noreferrer"
+        >
+          <Btn>
+            <Icon src={wppIcon} />
+            37 999999999
+          </Btn>
+        </LinkSocialMedia>
       </ImageDiv>
 
       <GridProductsContainer>
@@ -49,7 +56,13 @@ function Products() {
           </GridContainerImage>
           <GridTitle>Mouses</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
-          <GridBtn>Entre em Contato</GridBtn>
+          <LinkSocialMedia
+            target="_blank"
+            href="https://wa.me/553788087079"
+            rel="noreferrer"
+          >
+            <GridBtn>Entre em Contato</GridBtn>
+          </LinkSocialMedia>
         </GridProduct>
 
         <GridProduct>
@@ -58,7 +71,14 @@ function Products() {
           </GridContainerImage>
           <GridTitle>Teclados</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
-          <GridBtn>Entre em Contato</GridBtn>
+
+          <LinkSocialMedia
+            target="_blank"
+            href="https://wa.me/553788087079"
+            rel="noreferrer"
+          >
+            <GridBtn>Entre em Contato</GridBtn>
+          </LinkSocialMedia>
         </GridProduct>
 
         <GridProduct>
@@ -67,7 +87,13 @@ function Products() {
           </GridContainerImage>
           <GridTitle>Fones/Headset</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
-          <GridBtn>Entre em Contato</GridBtn>
+          <LinkSocialMedia
+            target="_blank"
+            href="https://wa.me/553788087079"
+            rel="noreferrer"
+          >
+            <GridBtn>Entre em Contato</GridBtn>
+          </LinkSocialMedia>
         </GridProduct>
 
         <GridProduct>
@@ -76,7 +102,13 @@ function Products() {
           </GridContainerImage>
           <GridTitle>Impressoras</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
-          <GridBtn>Entre em Contato</GridBtn>
+          <LinkSocialMedia
+            target="_blank"
+            href="https://wa.me/553788087079"
+            rel="noreferrer"
+          >
+            <GridBtn>Entre em Contato</GridBtn>
+          </LinkSocialMedia>
         </GridProduct>
 
         <GridProduct>
@@ -85,7 +117,13 @@ function Products() {
           </GridContainerImage>
           <GridTitle>Gabinetes</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
-          <GridBtn>Entre em Contato</GridBtn>
+          <LinkSocialMedia
+            target="_blank"
+            href="https://wa.me/553788087079"
+            rel="noreferrer"
+          >
+            <GridBtn>Entre em Contato</GridBtn>
+          </LinkSocialMedia>
         </GridProduct>
 
         <GridProduct>
@@ -94,7 +132,13 @@ function Products() {
           </GridContainerImage>
           <GridTitle>Leitor de barras</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
-          <GridBtn>Entre em Contato</GridBtn>
+          <LinkSocialMedia
+            target="_blank"
+            href="https://wa.me/553788087079"
+            rel="noreferrer"
+          >
+            <GridBtn>Entre em Contato</GridBtn>
+          </LinkSocialMedia>
         </GridProduct>
 
         <GridProduct>
@@ -103,7 +147,13 @@ function Products() {
           </GridContainerImage>
           <GridTitle>Ssd's</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
-          <GridBtn>Entre em Contato</GridBtn>
+          <LinkSocialMedia
+            target="_blank"
+            href="https://wa.me/553788087079"
+            rel="noreferrer"
+          >
+            <GridBtn>Entre em Contato</GridBtn>
+          </LinkSocialMedia>
         </GridProduct>
 
         <GridProduct>
@@ -112,7 +162,13 @@ function Products() {
           </GridContainerImage>
           <GridTitle>Webcam's</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
-          <GridBtn>Entre em Contato</GridBtn>
+          <LinkSocialMedia
+            target="_blank"
+            href="https://wa.me/553788087079"
+            rel="noreferrer"
+          >
+            <GridBtn>Entre em Contato</GridBtn>
+          </LinkSocialMedia>
         </GridProduct>
 
         <GridProduct>
@@ -121,7 +177,13 @@ function Products() {
           </GridContainerImage>
           <GridTitle>Toner</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
-          <GridBtn>Entre em Contato</GridBtn>
+          <LinkSocialMedia
+            target="_blank"
+            href="https://wa.me/553788087079"
+            rel="noreferrer"
+          >
+            <GridBtn>Entre em Contato</GridBtn>
+          </LinkSocialMedia>
         </GridProduct>
       </GridProductsContainer>
     </SectionOne>

@@ -133,3 +133,8 @@ export const GridBtn = styled.button`
     color: #fff;
   }
 `;
+
+export const LinkSocialMedia = styled.a`
+  text-decoration: none;
+  width: 85%;
+`;

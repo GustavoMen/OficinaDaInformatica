@@ -45,6 +45,10 @@ function Navbar() {
         </MobileIcon>
         <NavMenu onClick={handleClick} click={click}>
           <NavItem>
+            <NavLinks to="/">Home</NavLinks>
+          </NavItem>
+
+          <NavItem>
             <NavLinks to="/products">Produtos</NavLinks>
           </NavItem>
 
@@ -58,10 +62,6 @@ function Navbar() {
 
           <NavItem>
             <NavLinks to="/systems">Sistemas</NavLinks>
-          </NavItem>
-
-          <NavItem>
-            <NavLinks to="/contact">Contato</NavLinks>
           </NavItem>
         </NavMenu>
       </NavbarContainer>

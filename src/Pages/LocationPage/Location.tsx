@@ -35,6 +35,7 @@ import {
   GridTitle,
   GridText,
   Icon,
+  LinkSocialMedia,
 } from "./Location.elements";
 
 function Location() {
@@ -80,10 +81,16 @@ function Location() {
             <Icon src={copyIcon} />
             37 999999999
           </Btn>
-          <Btn>
-            <Icon src={wppIcon} />
-            37 999999999
-          </Btn>
+          <LinkSocialMedia
+            target="_blank"
+            href="https://wa.me/553788087079"
+            rel="noreferrer"
+          >
+            <Btn>
+              <Icon src={wppIcon} />
+              37 999999999
+            </Btn>
+          </LinkSocialMedia>
         </ImageDiv>
       </SectionTwo>
 

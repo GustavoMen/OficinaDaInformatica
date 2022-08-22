@@ -164,6 +164,10 @@ export const Icon = styled.img`
   margin-right: 10px;
 `;
 
+export const LinkSocialMedia = styled.a`
+  text-decoration: none;
+`;
+
 /// Section Three ///////////////////////
 
 export const SectionThree = styled.section``;

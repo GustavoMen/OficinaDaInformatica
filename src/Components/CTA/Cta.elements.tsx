@@ -46,3 +46,7 @@ export const Icon = styled.img`
   height: 20px;
   margin-right: 10px;
 `;
+
+export const LinkSocialMedia = styled.a`
+  text-decoration: none;
+`;
