@@ -114,12 +114,12 @@ export const GridText = styled.p`
 `;
 
 export const GridBtn = styled.button`
+  margin-left: 15px;
   font-size: 16px;
   font-weight: bold;
   margin-top: 15px;
   margin-bottom: 15px;
   height: 30px;
-  align-self: center;
   color: #696969;
   background-color: #fff;
   border: 3px solid #b72d2f;

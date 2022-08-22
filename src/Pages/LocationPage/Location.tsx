@@ -78,7 +78,7 @@ function Location() {
         <ImageDiv>
           <ImageText>Entre em Contato agora mesmo!</ImageText>
           <Btn onClick={() => copy("35224986")}>
-            <Icon src={copyIcon} />
+            <Icon src={copyIcon} alt="copiar" />
             3522-4986
           </Btn>
           <LinkSocialMedia
@@ -87,7 +87,7 @@ function Location() {
             rel="noreferrer"
           >
             <Btn>
-              <Icon src={wppIcon} />
+              <Icon src={wppIcon} alt="whatsaap" />
               37 98808-7079
             </Btn>
           </LinkSocialMedia>
