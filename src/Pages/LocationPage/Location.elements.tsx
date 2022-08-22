@@ -132,6 +132,7 @@ export const Btn = styled.button`
   font-size: 16px;
   font-weight: bold;
   transition: 0.6s ease;
+  cursor: pointer;
 
   &:hover {
     transform: scale(1.1);

@@ -48,9 +48,9 @@ function Location() {
             Nos dedicamos em simplificar o dia a dia dos nossos clientes
           </MainText>
           <SecondText>
-            Atendemos com Locação de Impressão, com modelos de equipamentos para
-            diferentes fluxos de trabalho sempre atualizados com o que há de
-            mais inovador e eficiente no mercado.
+            Atendemos com Locação de Impressoras, com modelos de equipamentos
+            para diferentes fluxos de trabalho sempre atualizados com o que há
+            de mais inovador e eficiente no mercado.
           </SecondText>
         </ContainerText>
         <ImgContainer>

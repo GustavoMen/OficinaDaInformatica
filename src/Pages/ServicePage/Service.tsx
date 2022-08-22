@@ -26,10 +26,10 @@ function Service() {
     <>
       <Sectionone>
         <ContainerText>
-          <MainText>Suporte tecnico de informática</MainText>
+          <MainText>Suporte técnico de informática</MainText>
           <SecondText>
-            Loja especializada em suporte tecnico para computadores e notebooks
-            desde ANO em Bom despacho/MG.
+            Loja especializada em suporte técnico para computadores e notebooks
+            desde 1998 em Bom Despacho/MG.
           </SecondText>
         </ContainerText>
         <ImgContainer>
@@ -61,8 +61,8 @@ function Service() {
           <GridIcon src={iconGridSix} alt="Icone Proteção" />
           <GridMainText>Otimazação de Desempenho</GridMainText>
           <GridText>
-            Seu Pc está travando? Vamos descobrir o problema. Configurações
-            avançadas e pontuais, deixando computadores com desempenho de novo,
+            Seu Equipamento está travando? Vamos descobrir o problema.
+            Configurações avançadas e pontuais, deixando com desempenho de novo,
             melhorando seu desempenho.
           </GridText>
         </GridItem>

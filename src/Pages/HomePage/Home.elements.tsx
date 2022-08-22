@@ -76,6 +76,7 @@ export const Btn = styled.button`
   border-radius: 5px;
   border: none;
   transition: all 0.5s ease;
+  cursor: pointer;
 
   &:hover {
     transform: scale(1.1);
@@ -187,6 +188,7 @@ export const GridBtn = styled.button`
   height: 40px;
   width: 75%;
   display: none;
+  cursor: pointer;
 `;
 
 export const GridItem = styled.div`

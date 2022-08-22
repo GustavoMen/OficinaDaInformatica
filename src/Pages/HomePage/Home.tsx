@@ -65,7 +65,7 @@ export default function Home() {
         </ImgContainer>
       </Sectionone>
       <SectionTwo>
-        <SectionTwoTitle>Quais problemas resolvemos para você?</SectionTwoTitle>
+        <SectionTwoTitle>Quais soluções temos para você?</SectionTwoTitle>
         <GridContainer>
           <PageLinks to="/systems">
             <GridItem
