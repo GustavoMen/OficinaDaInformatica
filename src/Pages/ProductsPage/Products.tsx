@@ -33,9 +33,9 @@ function Products() {
     <SectionOne>
       <ImageDiv>
         <Text>Veja os Periféricos mais vendidos</Text>
-        <Btn onClick={() => copy("37 999999999")}>
+        <Btn onClick={() => copy("35224986")}>
           <Icon src={copyIcon} />
-          37 999999999
+          3522-4986
         </Btn>
         <LinkSocialMedia
           target="_blank"
@@ -44,7 +44,7 @@ function Products() {
         >
           <Btn>
             <Icon src={wppIcon} />
-            37 999999999
+            37 98808-7079
           </Btn>
         </LinkSocialMedia>
       </ImageDiv>
