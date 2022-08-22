@@ -41,3 +41,8 @@ export const Text = styled.h3`
   color: #fff;
   font-size: 24px;
 `;
+
+export const Icon = styled.img`
+  height: 20px;
+  margin-right: 10px;
+`;

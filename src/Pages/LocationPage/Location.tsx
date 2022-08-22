@@ -1,5 +1,7 @@
 import React from "react";
+import { useCopyToClipboard } from "usehooks-ts";
 
+import copyIcon from "../../assets/Images/copy.svg";
 import ImageOne from "../../assets/Images/location/Image.png";
 import locationIconFive from "../../assets/Images/location/LocationPageIconFive.svg";
 import locationIconFour from "../../assets/Images/location/LocationPageIconFour.svg";
@@ -7,6 +9,7 @@ import locationIconOne from "../../assets/Images/location/LocationPageIconOne.sv
 import locationIconSix from "../../assets/Images/location/LocationPageIconSix.svg";
 import locationIconThree from "../../assets/Images/location/LocationPageIconThree.svg";
 import locationIconTwo from "../../assets/Images/location/LocationPageIconTwo.svg";
+import wppIcon from "../../assets/Images/wpp.svg";
 import {
   MainText,
   Sectionone,
@@ -31,9 +34,11 @@ import {
   GridDivText,
   GridTitle,
   GridText,
+  Icon,
 } from "./Location.elements";
 
 function Location() {
+  const [value, copy] = useCopyToClipboard();
   return (
     <>
       <Sectionone>
@@ -71,7 +76,14 @@ function Location() {
 
         <ImageDiv>
           <ImageText>Entre em Contato agora mesmo!</ImageText>
-          <Btn>37 999999999</Btn>
+          <Btn onClick={() => copy("37 999999999")}>
+            <Icon src={copyIcon} />
+            37 999999999
+          </Btn>
+          <Btn>
+            <Icon src={wppIcon} />
+            37 999999999
+          </Btn>
         </ImageDiv>
       </SectionTwo>
 

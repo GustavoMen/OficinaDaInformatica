@@ -235,3 +235,8 @@ export const PageLinks = styled(Link)`
   border: none;
   outline: none;
 `;
+
+export const LinkSocialMedia = styled.a`
+  text-decoration: none;
+  cursor: pointer;
+`;

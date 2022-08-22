@@ -31,6 +31,7 @@ import {
   GridListText,
   GridBtn,
   PageLinks,
+  LinkSocialMedia,
 } from "./Home.elements";
 
 export default function Home() {
@@ -47,11 +48,17 @@ export default function Home() {
           <SecondText>
             Aumente a produtividade de seus equipamentos com produtos modernos.
           </SecondText>
-          <Btn>
-            <WppImg src={WppImgLogo} alt="Whatsapp Logo" />
-            Entre em Contato
-            <WppImg src={WppImgLogo} alt="Whatsapp Logo" />
-          </Btn>
+          <LinkSocialMedia
+            target="_blank"
+            href="https://wa.me/553788087079"
+            rel="noreferrer"
+          >
+            <Btn>
+              <WppImg src={WppImgLogo} alt="Whatsapp Logo" />
+              Entre em Contato
+              <WppImg src={WppImgLogo} alt="Whatsapp Logo" />
+            </Btn>
+          </LinkSocialMedia>
         </ContainerText>
         <ImgContainer>
           <ImgOne src={imageOne} alt="Imagem ilustrativa" />
