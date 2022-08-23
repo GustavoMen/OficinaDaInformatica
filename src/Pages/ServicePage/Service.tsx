@@ -62,17 +62,14 @@ function Service() {
           <GridMainText>Otimazação de Desempenho</GridMainText>
           <GridText>
             Seu Equipamento está travando? Vamos descobrir o problema.
-            Configurações avançadas e pontuais, deixando com desempenho de novo,
-            melhorando seu desempenho.
+            Configurações avançadas e pontuais, melhorando seu desempenho.
           </GridText>
         </GridItem>
 
         <GridItem>
           <GridIcon src={iconGridFour} alt="Icone Backup" />
           <GridMainText>Backup de Dados</GridMainText>
-          <GridText>
-            Mesmo que seu equipamento não ligue, fazemos backup do seus dados.
-          </GridText>
+          <GridText>Gerenciamento de backup Pessoal e Empresarial</GridText>
         </GridItem>
 
         <GridItem>

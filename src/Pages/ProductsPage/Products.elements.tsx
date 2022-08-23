@@ -42,11 +42,11 @@ export const ImageDiv = styled.div`
 `;
 
 export const Text = styled.h3`
-  width: 400px;
-  padding-top: 30px;
+  width: 600px;
+  padding-top: 45px;
   margin: auto;
   color: #fff;
-  font-size: 24px;
+  font-size: 32px;
 `;
 
 export const Icon = styled.img`
@@ -75,7 +75,7 @@ export const GridProductsContainer = styled.div`
 export const GridProduct = styled.div`
   margin-top: 40px;
   box-shadow: 2px 4px #888888;
-  width: 250px;
+  width: 90%;
   align-items: center;
   justify-items: center;
   display: flex;

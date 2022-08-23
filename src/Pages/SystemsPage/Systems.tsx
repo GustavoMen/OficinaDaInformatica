@@ -55,14 +55,10 @@ function Systems() {
 
         <GridContainerTextLeft>
           <GridMainText>
-            Emissão ilimitada de notas e documentos fiscais
+            Emissão ilimitada de notas e documentos fiscais, Onde e quando
+            quiser
           </GridMainText>
-          <GridSecondText>
-            Vinculados a Prefeituras e Estados do Brasil: NF-e, MDF-e, NFC-e,
-            NFS-e e CT-e
-          </GridSecondText>
 
-          <GridMainText>Onde e quando quiser</GridMainText>
           <GridSecondText>
             Sistema em nuvem, totalmente on-line e seguro.
           </GridSecondText>

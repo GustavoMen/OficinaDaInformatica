@@ -33,20 +33,6 @@ function Products() {
     <SectionOne>
       <ImageDiv>
         <Text>Veja os Periféricos mais vendidos</Text>
-        <Btn onClick={() => copy("35224986")}>
-          <Icon src={copyIcon} alt="copiar" />
-          3522-4986
-        </Btn>
-        <LinkSocialMedia
-          target="_blank"
-          href="https://wa.me/553788087079"
-          rel="noreferrer"
-        >
-          <Btn>
-            <Icon src={wppIcon} alt="whatsapp" />
-            37 98808-7079
-          </Btn>
-        </LinkSocialMedia>
       </ImageDiv>
 
       <GridProductsContainer>

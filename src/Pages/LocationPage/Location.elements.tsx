@@ -172,7 +172,9 @@ export const LinkSocialMedia = styled.a`
 
 /// Section Three ///////////////////////
 
-export const SectionThree = styled.section``;
+export const SectionThree = styled.section`
+  margin-top: 50px;
+`;
 
 export const SectionThreeTitle = styled.h2`
   margin-top: 30px;

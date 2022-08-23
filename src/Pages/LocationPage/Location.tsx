@@ -74,24 +74,6 @@ function Location() {
             </ItemText>
           </ItemDiv>
         </SectionTwoDiv>
-
-        <ImageDiv>
-          <ImageText>Entre em Contato agora mesmo!</ImageText>
-          <Btn onClick={() => copy("35224986")}>
-            <Icon src={copyIcon} alt="copiar" />
-            3522-4986
-          </Btn>
-          <LinkSocialMedia
-            target="_blank"
-            href="https://wa.me/553788087079"
-            rel="noreferrer"
-          >
-            <Btn>
-              <Icon src={wppIcon} alt="whatsaap" />
-              37 98808-7079
-            </Btn>
-          </LinkSocialMedia>
-        </ImageDiv>
       </SectionTwo>
 
       <SectionThree>
