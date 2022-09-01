@@ -52,8 +52,7 @@ function Service() {
           <GridMainText>Manutenção de Computadores e Notebooks</GridMainText>
           <GridText>
             Formatação, limpeza interna, troca de pasta térmica, troca de tela,
-            reparo das dobradiças. Aumentando o tempo de vida de seu
-            equipamento.
+            reparo das dobradiças e manutenção preventiva.
           </GridText>
         </GridItem>
 
@@ -76,15 +75,16 @@ function Service() {
           <GridIcon src={iconGridFive} alt="Icone Suporte" />
           <GridMainText>Suporte Técnico</GridMainText>
           <GridText>
-            Traga seu Pc ou Notebook para ser avaliado pelo técnico responsável.
+            Traga seu equipamento que faremos uma avaliação para você.
           </GridText>
         </GridItem>
 
         <GridItem>
           <GridIcon src={iconGridThree} alt="Icone limpando" />
-          <GridMainText>Remoção de Vírus</GridMainText>
+          <GridMainText>Software</GridMainText>
           <GridText>
-            Realizamos remoção de vírus em computadores e notebooks.
+            Realizamos instalação de softwares de diversos tipos. Pacote Office,
+            Anti-Virus, Drivers.
           </GridText>
         </GridItem>
       </SectionTwo>

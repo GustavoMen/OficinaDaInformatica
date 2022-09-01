@@ -5,6 +5,7 @@ import {
   FooterContainer,
   FooterItem,
   ItemTitle,
+  ItemTitle2,
   ItemNavigate,
   LogoFooter,
   LinkSocialMedia,
@@ -19,9 +20,8 @@ function Footer() {
         <ItemTitle>Contato:</ItemTitle>
         <ItemContact>oficina.acp@gmail.com</ItemContact>
         <ItemContact>Praça Altino Teodoro 06, Centro</ItemContact>
-        <ItemContact>
-          Segunda a Sexta-feira 09h às 18h, Sabado 08h ás 12h
-        </ItemContact>
+        <ItemContact>3522-4986</ItemContact>
+        <ItemContact>37 98808-7079</ItemContact>
       </FooterItem>
       <FooterItem>
         <ItemTitle>Redes Sociais</ItemTitle>
@@ -51,19 +51,12 @@ function Footer() {
       </FooterItem>
 
       <FooterItem>
-        <ItemTitle>Navegue por aqui</ItemTitle>
-        <PageLinks to="systems">
-          <ItemNavigate>Sistemas</ItemNavigate>
-        </PageLinks>
-        <PageLinks to="services">
-          <ItemNavigate>Serviços</ItemNavigate>
-        </PageLinks>
-        <PageLinks to="location">
-          <ItemNavigate>Locação</ItemNavigate>
-        </PageLinks>
-        <PageLinks to="products">
-          <ItemNavigate>Produtos</ItemNavigate>
-        </PageLinks>
+        <ItemTitle>Horario de funcionamento</ItemTitle>
+        <ItemContact>
+          Segunda a Sexta-feira 08h às 18h, Sabado 08h ás 12h
+        </ItemContact>
+        <ItemTitle2>Endereço</ItemTitle2>
+        <ItemContact>Praça Altino Teodoro 06, Centro</ItemContact>
       </FooterItem>
     </FooterContainer>
   );

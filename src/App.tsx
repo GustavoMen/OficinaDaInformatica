@@ -26,7 +26,6 @@ export default function App() {
         <Route path="/test" element={<Footer />} />
       </Routes>
       <Footer />
-      <Cta />
     </Router>
   );
 }

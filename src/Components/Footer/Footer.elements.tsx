@@ -27,6 +27,13 @@ export const ItemTitle = styled.p`
   font-size: 24px;
 `;
 
+export const ItemTitle2 = styled.p`
+  color: #696969;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 30px;
+`;
+
 export const ItemNavigate = styled.p`
   color: #696969;
   font-weight: bold;
