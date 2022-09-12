@@ -40,7 +40,7 @@ function Systems() {
             Tudo oque sua empresa precisa em um só lugar
           </GridMainText>
           <GridSecondText>
-            Gestão integrada, rotinas comtabeis e emissão de documentos fiscais
+            Gestão integrada, rotinas contáveis e emissão de documentos fiscais
             direto do navegador web.
           </GridSecondText>
         </GridInitialLeft>
@@ -49,13 +49,13 @@ function Systems() {
           <GridMainText>Feito para o empresário brasileiro</GridMainText>
           <GridSecondText>
             Atende empresas de pequeno e médio porte, com a mesma eficiência.
-            Indicado para MEI, empresas do Simples, Lucro real ou Presumido.{" "}
+            Indicado para MEI, empresas do simples, lucro real ou presumido.
           </GridSecondText>
         </GridInitialRight>
 
         <GridContainerTextLeft>
           <GridMainText>
-            Emissão ilimitada de notas e documentos fiscais, Onde e quando
+            Emissão ilimitada de notas e documentos fiscais, onde e quando
             quiser
           </GridMainText>
 
@@ -68,10 +68,7 @@ function Systems() {
           <GridMainText>E Mais:</GridMainText>
           <GridList>
             <GridListText>
-              Integração gratuita com a contabilidade.
-            </GridListText>
-            <GridListText>
-              Geração de arquivos fiscais Sintegra e Sped.
+              Geração de arquivos fiscais Sintegra e Speed.
             </GridListText>
             <GridListText>
               Controle financeiro com geração de boleto.

@@ -101,6 +101,8 @@ export const SectionTwoDiv = styled.div`
 export const ItemDiv = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-items: center;
   width: 45%;
 
   @media screen and (max-width: 996px) {

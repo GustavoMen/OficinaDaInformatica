@@ -37,7 +37,7 @@ function Footer() {
           href="https://www.instagram.com/oficinadainformatica_bd/"
           rel="noreferrer"
         >
-          <ItemNavigate>Insagram</ItemNavigate>
+          <ItemNavigate>Instagram</ItemNavigate>
         </LinkSocialMedia>
 
         <LinkSocialMedia
@@ -57,6 +57,7 @@ function Footer() {
         </ItemContact>
         <ItemTitle2>Endereço</ItemTitle2>
         <ItemContact>Praça Altino Teodoro 06, Centro</ItemContact>
+        <ItemContact>Bom Despacho MG</ItemContact>
       </FooterItem>
     </FooterContainer>
   );

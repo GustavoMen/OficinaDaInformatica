@@ -145,8 +145,8 @@ export default function Home() {
               />
               <GridTitle>Vendas</GridTitle>
               <GridText>
-                Precisa Comprar Equipamentos, Perifericos e suprimentos de Alta
-                Qualidade?
+                Precisa comprar equipamentos, perifericos e suprimentos de alta
+                qualidade?
               </GridText>
               <GridList>
                 <GridListText>

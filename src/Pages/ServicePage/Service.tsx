@@ -83,8 +83,8 @@ function Service() {
           <GridIcon src={iconGridThree} alt="Icone limpando" />
           <GridMainText>Software</GridMainText>
           <GridText>
-            Realizamos instalação de softwares de diversos tipos. Pacote Office,
-            Anti-Virus, Drivers.
+            Instalamos e configuramos sistemas operacionais e aplicativos para
+            você.
           </GridText>
         </GridItem>
       </SectionTwo>

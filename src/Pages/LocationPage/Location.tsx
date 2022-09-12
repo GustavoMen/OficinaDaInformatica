@@ -48,7 +48,7 @@ function Location() {
             Nos dedicamos em simplificar o dia a dia dos nossos clientes
           </MainText>
           <SecondText>
-            Atendemos com Locação de Impressoras, com modelos de equipamentos
+            Atendemos com locações de Impressoras, com modelos de equipamentos
             para diferentes fluxos de trabalho sempre atualizados com o que há
             de mais inovador e eficiente no mercado.
           </SecondText>
@@ -57,24 +57,6 @@ function Location() {
           <ImgOne src={ImageOne} alt="Imagem ilustrativa" />
         </ImgContainer>
       </Sectionone>
-      <SectionTwo>
-        <SectionTwoDiv>
-          <ItemDiv>
-            <ItemLogo src={locationIconOne} alt="Grafico Subindo" />
-            <ItemText>
-              Locação de impressoras de diversos tipos e para todos os
-              segmentos.
-            </ItemText>
-          </ItemDiv>
-
-          <ItemDiv>
-            <ItemLogo src={locationIconTwo} alt="Icone Dinheiro" />
-            <ItemText>
-              Proporcionamos economia de recursos e produtividade.
-            </ItemText>
-          </ItemDiv>
-        </SectionTwoDiv>
-      </SectionTwo>
 
       <SectionThree>
         <SectionThreeTitle>Diferenciais</SectionThreeTitle>
@@ -122,7 +104,7 @@ function Location() {
               <GridTitle>Equipamento pronta-entrega</GridTitle>
               <GridText>
                 Todos os equipamentos prontos para uso, sendo entregues o mais
-                rapido possivel para que seu rendimento não seja atrapalhado.
+                rapido possivel para que seu rendimento não seja comprometido.
               </GridText>
             </GridDivText>
           </GridItem>
