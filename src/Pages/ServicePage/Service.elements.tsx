@@ -82,7 +82,6 @@ export const SectionTwo = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  margin-bottom: 30px;
   // border-bottom: 4px solid #b72d2f;
 
   @media screen and (max-width: 996px) {
@@ -94,13 +93,27 @@ export const SectionTwo = styled.section`
 export const GridItem = styled.div`
   text-align: center;
   width: 80%;
-  height: 300px;
+  height: 280px;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  margin-bottom: 20px;
+
   // border: 1px solid #000;
 
+  @media screen and (max-width: 996px) {
+    margin-top: 0;
+    height: 300px;
+  }
+`;
+export const GridLastItem = styled.div`
+  text-align: center;
+  width: 30%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  margin-top: 20px;
   @media screen and (max-width: 996px) {
     margin-top: 0;
   }

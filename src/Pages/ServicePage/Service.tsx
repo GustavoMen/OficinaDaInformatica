@@ -1,5 +1,6 @@
 import React from "react";
 
+import iconGridSeven from "../../assets/Images/services/cabeamento2.svg";
 import iconGridFive from "../../assets/Images/services/ServicePageIconFive.svg";
 import iconGridFour from "../../assets/Images/services/ServicePageIconFour.svg";
 import iconGridOne from "../../assets/Images/services/ServicePageIconOne.svg";
@@ -19,6 +20,7 @@ import {
   GridIcon,
   GridMainText,
   GridText,
+  GridLastItem,
 } from "./Service.elements";
 
 function Service() {
@@ -66,9 +68,13 @@ function Service() {
         </GridItem>
 
         <GridItem>
-          <GridIcon src={iconGridFour} alt="Icone Backup" />
-          <GridMainText>Backup de Dados</GridMainText>
-          <GridText>Gerenciamento de backup Pessoal e Empresarial</GridText>
+          <GridIcon src={iconGridSeven} alt="Icone limpando" />
+          <GridMainText>Cabeamento Estruturado</GridMainText>
+          <GridText>
+            Por meio do cabeamento estruturado é possível a prevenção de
+            interrupções na comunicação além da indentificação facilitada de
+            cabos e erros na rede.
+          </GridText>
         </GridItem>
 
         <GridItem>
@@ -88,6 +94,12 @@ function Service() {
           </GridText>
         </GridItem>
       </SectionTwo>
+
+      <GridLastItem>
+        <GridIcon src={iconGridFour} alt="Icone Backup" />
+        <GridMainText>Backup de Dados</GridMainText>
+        <GridText>Gerenciamento de backup Pessoal e Empresarial</GridText>
+      </GridLastItem>
     </>
   );
 }

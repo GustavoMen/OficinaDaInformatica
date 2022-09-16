@@ -69,7 +69,7 @@ function Location() {
               <GridTitle>Atendimento Técnico</GridTitle>
               <GridText>
                 Além da manutenção preventiva, qualquer problema que venha a
-                ocorrer será solucionado por Técnicos rapidamente.
+                ocorrer será solucionado por técnicos rapidamente.
               </GridText>
             </GridDivText>
           </GridItem>
@@ -103,8 +103,8 @@ function Location() {
             <GridDivText>
               <GridTitle>Equipamento pronta-entrega</GridTitle>
               <GridText>
-                Todos os equipamentos prontos para uso, sendo entregues o mais
-                rapido possivel para que seu rendimento não seja comprometido.
+                Todos os equipamentos prontos para uso, sendo entregues
+                rapidamente para que seu rendimento não seja comprometido.
               </GridText>
             </GridDivText>
           </GridItem>

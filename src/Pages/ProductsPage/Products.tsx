@@ -116,7 +116,7 @@ function Products() {
           <GridContainerImage>
             <GridImage src={leitorImage} alt="leitor qr code" />
           </GridContainerImage>
-          <GridTitle>Leitor de barras</GridTitle>
+          <GridTitle>Leitor cod. de barras</GridTitle>
           <GridText>Veja os modelos disponiveis</GridText>
           <LinkSocialMedia
             target="_blank"

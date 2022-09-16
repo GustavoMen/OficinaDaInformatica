@@ -40,7 +40,7 @@ function Systems() {
             Tudo oque sua empresa precisa em um só lugar
           </GridMainText>
           <GridSecondText>
-            Gestão integrada, rotinas contáveis e emissão de documentos fiscais
+            Gestão integrada, rotinas contábeis e emissão de documentos fiscais
             direto do navegador web.
           </GridSecondText>
         </GridInitialLeft>
